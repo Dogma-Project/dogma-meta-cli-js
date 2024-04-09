@@ -1,0 +1,35 @@
+{
+  "name": "@dogma-project/cli-meta",
+  "version": "0.1.0",
+  "description": "Dogma Meta cli application",
+  "main": "./dist/index.js",
+  "types": "./declarations/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dogma-Project/dogma-meta-cli-js.git"
+  },
+  "keywords": [
+    "dogma meta",
+    "dogma meta cli",
+    "decentralization",
+    "p2p"
+  ],
+  "author": "Rotegott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dogma-Project/dogma-meta-cli-js/issues"
+  },
+  "homepage": "https://github.com/Dogma-Project/dogma-meta-cli-js#readme",
+  "dependencies": {
+    "@dogma-project/core-meta": "^0.9.14",
+    "ink": "^4.4.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1",
+    "typescript": "^5.4.4"
+  }
+}
